@@ -1,0 +1,1 @@
+<?php	return array ( 'zh-cn' => array ( 'id' => '1', 'name' => '简体中文', 'code' => 'zh-cn', 'status' => '1', ), 'en' => array ( 'id' => '2', 'name' => 'English', 'code' => 'en', 'status' => '1', ), );?>

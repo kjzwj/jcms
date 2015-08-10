@@ -1,0 +1,1 @@
+<?php	return array ( 'id' => '1', 'cell_name' => 'footer', 'title' => '版权信息', 'content' => '<p> ©2015 j-cms 版权所有</p>', 'status' => '1', 'lang' => 'zh-cn', );?>

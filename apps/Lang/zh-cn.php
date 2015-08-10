@@ -1,0 +1,88 @@
+<?php
+
+return array(
+
+        //前台后台共用
+		'page_msg' => '页面提示信息',
+		'sys_will' => '系统将在',
+		'page_jump_tip' => '秒后自动跳转，如果不想等待，直接点击',
+        'here' => '这里',	
+		'operation_success'	=>	'操作成功',
+		'operation_failure'	=>	'操作失败',
+		'is_exist'	=>	'%s 已经存在',		
+		'not_exist'	=>	'%s 不存在',		
+		'selet_images'	=>	'选择图片',
+		'del_images'	=>	"-删除",
+		'image'	=>	'图片',
+        'field_required' =>  '%s 不能为空',
+        'format_error' =>  '%s 格式错误',
+        'keyword_null'  =>  '请输入关键字',
+		
+		'type_page'	=>	'单页面',
+		'type_link'	=>	'外链接',
+		'type_list'	=>	'普通分类',
+		
+		
+		/*content 内容*/
+		'category_null'	=>	'栏目不存在，或已经删除。',
+		
+		
+		//js common
+        'js_lang' => array(
+        'connecting_please_wait' => '请稍后...',
+        'confirm_title' => '提示消息',
+        'move' => '移动',
+        'dialog_title' => '消息',
+        'dialog_ok' => '确定',
+        'dialog_cancel' => '取消',
+        'please_input' => '请输入',
+        'please_select' => '请选择',
+        'not_select' => '不选择',
+        'all' => '所有',
+        'input_right' => '输入正确',
+        'plsease_select_rows' => '请选择要操作的项目！',
+        'upload' => '上传',
+        'uploading' => '上传中',
+        'upload_type_error' => '不允许上传的文件类型！',
+        'upload_size_error' => '文件大小不能超过{sizeLimit}！',
+        'upload_minsize_error' => '文件大小不能小于{minSizeLimit}！',
+        'upload_empty_error' => '文件为空，请重新选择！',
+        'upload_nofile_error' => '没有选择要上传的文件！',
+        'upload_onLeave' => '正在上传文件，离开此页将取消上传！',
+        ),		
+		
+    //  核心
+    '_MODULE_NOT_EXIST_'    =>  '无法加载模块',
+    '_ERROR_ACTION_'        =>  '非法操作',
+    '_LANGUAGE_NOT_LOAD_'   =>  '无法加载语言包',
+    '_TEMPLATE_NOT_EXIST_'  =>  '模板不存在',
+    '_MODULE_'              =>  '模块',
+    '_ACTION_'              =>  '操作',
+    '_ACTION_NOT_EXIST_'    =>  '控制器不存在或者没有定义',
+    '_MODEL_NOT_EXIST_'     =>  '模型不存在或者没有定义',
+    '_VALID_ACCESS_'        =>  '没有权限',
+    '_XML_TAG_ERROR_'       =>  'XML标签语法错误',
+    '_DATA_TYPE_INVALID_'   =>  '非法数据对象！',
+    '_OPERATION_WRONG_'     =>  '操作出现错误',
+    '_NOT_LOAD_DB_'         =>  '无法加载数据库',
+    '_NO_DB_DRIVER_'        =>  '无法加载数据库驱动',
+    '_NOT_SUPPORT_DB_'      =>  '系统暂时不支持数据库',
+    '_NO_DB_CONFIG_'        =>  '没有定义数据库配置',
+    '_NOT_SUPPERT_'         =>  '系统不支持',
+    '_CACHE_TYPE_INVALID_'  =>  '无法加载缓存类型',
+    '_FILE_NOT_WRITEABLE_'  =>  '目录（文件）不可写',
+	'_METHOD_NOT_EXIST_'    =>  '您所请求的方法不存在！',
+    '_CLASS_NOT_EXIST_'     =>  '实例化一个不存在的类！',
+    '_CLASS_CONFLICT_'      =>  '类名冲突',
+    '_TEMPLATE_ERROR_'      =>  '模板引擎错误',
+    '_CACHE_WRITE_ERROR_'   =>  '缓存文件写入失败！',
+    '_TAGLIB_NOT_EXIST_'    =>  '标签库未定义',
+	'_OPERATION_FAIL_'      =>  '操作失败！',
+	'_OPERATION_SUCCESS_'   =>  '操作成功！',
+	'_SELECT_NOT_EXIST_'    =>  '记录不存在！',
+    '_EXPRESS_ERROR_'       =>  '表达式错误',
+    '_TOKEN_ERROR_'         =>  '表单令牌错误',
+    '_RECORD_HAS_UPDATE_'   =>  '记录已经更新',
+    '_NOT_ALLOW_PHP_'       =>  '模板禁用PHP代码',
+    '_PARAM_ERROR_'         =>  '参数错误或者未定义',
+);

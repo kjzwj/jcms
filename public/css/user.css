@@ -1,0 +1,95 @@
+/*注册&登录*/
+.user-content{padding:40px 30px 30px; margin-bottom: 30px;}
+.user-box{border: 2px solid #D7D7D7; padding:25px;}
+.w140-btn{width: 140px;text-align: center;padding: 8px 0;font-size: 18px;}
+
+/*tab-nav*/
+.apartment-title.nav-tabs{}
+.apartment-title.nav-tabs h3,.apartment-title.personal-nav h3{float: left;background-color: #fff;}
+.apartment-title.nav-tabs h3 a{color: #ccc;}
+.apartment-title.nav-tabs .active a{color: #666;}
+.apartment-title.nav-tabs .active h3,.apartment-title.personal-nav h3.active {background-color: #f2f2f2;}
+
+.reg-box{float: left;}
+.reg-box-from li{width: 100%;float: left;margin:0 0 15px 0;margin-bottom: 10px;}
+.reg-box-from li .dd{position: relative; max-width: 350px;}
+.reg-box-from li .dd img{position: absolute; right:1px; height: 38px; top:1px; border-left: 1px #ccc solid; border-radius: 4px; cursor: pointer;}
+.reg-box-from li .dt{font-size: 18px;}
+.reg-box-from li .text{height: 40px;line-height: 40px; max-width:350px;}
+.reg-box-from li .btn{float: left;margin: 0 20px 0 0;}
+.reg-box-from li .sbtn{margin-top: 20px;float: left;}
+.apartment-title{}
+.apartment-title h3{background-color: #F2F2F2;border: 1px solid #d7d7d7;border-bottom: none;display: inline-block;margin: 0;padding: 0;font-weight: normal;font-size: 16px;padding: 10px 30px;color: #666;min-width: 130px;text-align: center;}
+
+/*otherwise-landing-box*/
+.otherwise-landing-box{float: left;}
+.otherwise-landing-box dl{padding-left:40px;border-left: 1px solid #E4E4E4;}
+.otherwise-landing-box dt{width: 100%;float: left;font-size: 18px;margin-bottom: 40px;font-weight: normal;}
+.otherwise-landing-box dd{background-color: #f2f2f2;width:100%;max-width:350px;float: left;border: 1px solid #E4E4E4;margin-bottom: 30px;padding: 10px 15px;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;}
+.otherwise-landing-box dd i{font-size: 32px;float: left;margin: 0 15px 0 0;color: #999;}
+.otherwise-landing-box dd  a:hover i{  color: #cd3c2e; }
+.otherwise-landing-box dd  span{float: left;margin: 5px 0 0;font-size: 16px;}
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+	.otherwise-landing-box dl{
+		border-left: 1px solid #E4E4E4;
+		border-top: none;
+	}
+}
+/* Medium devices (desktops, tablets less than 991px) */
+@media (max-width:991px) {
+	.otherwise-landing-box dl{
+		border-left: none;
+		border-top: 1px solid #E4E4E4;
+		padding-top: 30px;
+		margin-top: 50px;
+	}
+}
+@media (max-width:767px) {
+	/* Mobile menu */
+	.otherwise-landing-box dl{
+		border-left: none;
+		border-top: 1px solid #E4E4E4;
+		padding-top: 30px;
+		margin-top: 50px;
+	}
+}
+
+
+/*会员中心*/
+.user_main{margin-top: 30px; margin-bottom: 20px;}
+
+.user_index .welcome{margin-bottom: 50px;}
+.user_index .welcome p{margin-bottom: 5px;}
+.user_index .welcome .hello{font-size: 18px;}
+.user_index .welcome .hello b{font-size: 22px; color: #333;}
+.user_index .welcome a{color:#337ab7;}
+
+.user_index .bind{margin-bottom: 50px;}
+.user_index .bind dl{}
+.user_index .bind dl dt{font-size: 14px;}
+.user_index .bind dl dd{margin-top: 5px; font-size: 16px; display: inline-block; margin-right: 5px; float: left;}
+.user_index .bind dl dd i{margin-right: 5px;}
+/*.user_index .bind dl dd a{color: #999; display:block; padding: 10px; border:1px solid #ddd; border-radius: 6px;}
+.user_index .bind dl dd a:hover{background: #e6e6e6; color: #ff6400; text-decoration: none; border:1px solid #adadad;}*/
+
+.user_center .page-header{margin-top: 0; font-size: 20px;}
+
+.profile .form-group .txt{margin-top: 7px;}
+
+.bind{min-height: 500px}
+.bind .item{text-align: center; margin-bottom: 30px; border-right: 1px solid #ccc;}
+.bind .item.end{border:none;}
+.bind .item img{display: block; margin:auto;}
+.bind .item p{text-align: center; margin-top: 10px;}
+
+
+.title-tip{position: relative; top: 10px; padding-left: 20px;}
+.user-box .join_info_box{position: relative; margin-bottom: 20px;}
+.user-box .join_info_box img{position: absolute; left:0;top:0;}
+.user-box .join_info_box h5{padding-left:55px; margin-bottom:10px; font-size:16px; font-weight:bold;text-transform:none;}
+.user-box .join_info_box h5 p{font-size:12px; font-weight: normal; line-height: 28px;}
